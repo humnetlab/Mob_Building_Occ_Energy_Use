@@ -1,4 +1,4 @@
 # Ignore everything in this directory
-*
+*.idf
 # Except this file
 !.gitignore

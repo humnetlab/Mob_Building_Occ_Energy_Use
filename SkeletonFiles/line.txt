@@ -1,0 +1,13 @@
+var originVariable=new google.maps.LatLng(lat1,long1);
+var destinationVariable=new google.maps.LatLng(lat2,long2);
+
+var lineNameVariable = [originVariable, destinationVariable];
+var mapLineVariable = new google.maps.Polyline({
+    path:lineNameVariable,
+    strokeColor:"#000000",
+    strokeOpacity:1,
+    strokeWeight:4, 
+	zIndex: 10000
+});
+
+mapLineVariable.setMap(map);

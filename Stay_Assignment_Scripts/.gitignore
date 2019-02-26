@@ -1,0 +1,9 @@
+# Ignore everything in this directory
+*
+# Except these files
+!.gitignore
+!Step_1_BuildingsTractArea.ipynb
+!Step_3_PickledData.ipynb
+!Step_4_POIsTractsMine.ipynb
+!Step_5_HyperlocalBuildings.ipynb
+!Step_6_BuildingOccupancy.ipynb

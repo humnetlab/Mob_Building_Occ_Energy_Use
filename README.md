@@ -31,6 +31,8 @@ At the minute, all the data for 1 census tract is included.
 
 To run the EnergyPlus analysis, you need EnergyPlus (https://energyplus.net/installation-linux) and Eppy (https://pythonhosted.org/eppy/runningeplus.html).
 
+The input idf files for one tract are included in the directory "Full_idf_files". Unzip this and add the files to this directory.
+
 In particular, you need to make sure that teh path to the 'iddFile' ('Energy+.idd') is set and then to run the simulations you need EnergyPlus installed.
 
 After the ipython notebook files have been run in the directory "Stay_Assignment_Scripts", then the scripts in the directory "EPS_Scripts" can be run.
